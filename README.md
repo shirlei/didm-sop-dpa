@@ -1,5 +1,5 @@
 ### Review on decentralised identity management and digital identity wallets supporting material
 
-[Rapid Review](rapid-review/index.md)
+[Rapid Review](rapid-review/README.md)
 
-[Wallets](wallets-analyses/wallets/index.md)
+[Wallets Analysis](wallets-analyses/wallets/README.md)
