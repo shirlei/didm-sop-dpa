@@ -1,0 +1,106 @@
+{
+  "credential": {
+    "id": "urn:uuid:dcfd111e-47ba-49e2-ad74-33a5b3766235",
+    "data": {
+      "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://w3id.org/bbs/v1",
+        {
+          "@vocab": "https://trinsic.cloud/angry-fermat-zsyrjlw1tna2/"
+        }
+      ],
+      "type": [
+        "VerifiableCredential",
+        "Profile"
+      ],
+      "credentialSchema": [
+        {
+          "id": "https://schema.trinsic.cloud/angry-fermat-zsyrjlw1tna2/profile",
+          "type": "JsonSchemaValidator2018"
+        }
+      ],
+      "credentialSubject": {
+        "name": "John Doe",
+        "dob": "1990-01-01T10:00",
+        "gender": "Male",
+        "email": "shirlei@gmail.com",
+        "phone": "555-555-555",
+        "id": "urn:vc:subject:0"
+      },
+      "id": "urn:vc",
+      "issuanceDate": "2023-12-19T15:04:43.9380369Z",
+      "credentialStatus": {
+        "id": "urn:revocation-registry:angry-fermat-zsyrjlw1tna2:FaFge1u7fRgToR4DTAxJ1A#3",
+        "type": "RevocationList2020Status",
+        "revocationListIndex": "3",
+        "revocationListCredential": "urn:revocation-registry:angry-fermat-zsyrjlw1tna2:FaFge1u7fRgToR4DTAxJ1A"
+      },
+      "issuer": "did:web:angry-fermat-zsyrjlw1tna2.connect.trinsic.cloud:zVuMwW5NbyXj5CGoxdNB5ip",
+      "proof": {
+        "type": "BbsBlsSignature2020",
+        "created": "2023-12-19T15:04:44Z",
+        "proofPurpose": "assertionMethod",
+        "proofValue": "h111/uMrsS5ZR3+hbjlcUkNziOzVTgMN1j10w0Bz1iR3gwt0NJgcwJJNuB8XtXCIZskXIsScWk0tFZgZAo7YMUjEpUXJ1bV+rbU3yDgf1AVzI1bJpef5La45mjPsClFAw9pszxiLSmh1Pa0rXL3iMA==",
+        "verificationMethod": "did:web:angry-fermat-zsyrjlw1tna2.connect.trinsic.cloud:zVuMwW5NbyXj5CGoxdNB5ip#yDYHCKoq8ErK24uDLtsARYMD0uaRsnZ77oHy2M4EPGA"
+      }
+    },
+    "issuer": {
+      "did": "did:web:angry-fermat-zsyrjlw1tna2.connect.trinsic.cloud:zVuMwW5NbyXj5CGoxdNB5ip",
+      "displayName": "did:web:angry-fermat-zsyrjlw1tna2.connect.trinsic.cloud:zVuMwW5NbyXj5CGoxdNB5ip"
+    }
+  },
+  "supportsSelectiveDisclosure": true,
+  "renderData": {
+    "uri": "https://schema.trinsic.cloud/angry-fermat-zsyrjlw1tna2/profile",
+    "name": "",
+    "title": "ProfileCredential",
+    "description": "Profile data",
+    "fields": {
+      "name": {
+        "name": "name",
+        "title": "Name",
+        "description": "The full name of the subject",
+        "type": 0,
+        "renderType": 0,
+        "section": "Biographic data",
+        "order": 0
+      },
+      "dob": {
+        "name": "dob",
+        "title": "Date of birth",
+        "description": "The date of birth of the subject",
+        "type": 4,
+        "renderType": 0,
+        "section": "Biographic data",
+        "order": 1
+      },
+      "gender": {
+        "name": "gender",
+        "title": "Gender",
+        "description": "The gender of the subject",
+        "type": 0,
+        "renderType": 0,
+        "section": "Biographic data",
+        "order": 2
+      },
+      "email": {
+        "name": "email",
+        "title": "Email",
+        "description": "Email of the subject",
+        "type": 0,
+        "renderType": 0,
+        "section": "Contact Info",
+        "order": 3
+      },
+      "phone": {
+        "name": "phone",
+        "title": "Phone number",
+        "description": "Phone number of the subject",
+        "type": 0,
+        "renderType": 0,
+        "section": "Contact Info",
+        "order": 4
+      }
+    }
+  }
+}
